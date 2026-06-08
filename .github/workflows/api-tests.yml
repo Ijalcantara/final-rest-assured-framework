@@ -13,10 +13,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    env:
-      ENV: qa
-      GOREST_TOKEN: ${{ secrets.GOREST_TOKEN }}
-
     steps:
       # =========================
       # 1. Checkout
@@ -33,18 +29,6 @@ jobs:
           distribution: temurin
           java-version: 17
           cache: maven
-
-      # =========================
-      # 3. Validate secret
-      # =========================
-      - name: Check GOREST_TOKEN
-        run: |
-          if [ -z "${{ secrets.GOREST_TOKEN }}" ]; then
-            echo "GOREST_TOKEN is missing!"
-            exit 1
-          else
-            echo "GOREST_TOKEN is present"
-          fi
 
       # =========================
       # 4. Show trigger payload (debug)

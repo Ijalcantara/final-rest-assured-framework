@@ -1,6 +1,6 @@
 {
   "environment": {
-    "dev": {
+    "qa": {
       "dummyjsonBaseUrl": "https://dummyjson.com",
       "httpbinBaseUrl": "https://httpbin.org",
       "gorestBaseUrl": "https://gorest.co.in/public/v2",
@@ -11,8 +11,8 @@
   "gorest": {
     "token": "YOUR_GOREST_BEARER_TOKEN",
     "createUser": {
-      "name": "Automation User",
-      "email": "placeholder@example.com",
+      "name": "qa Automation User",
+      "email": "qa_placeholder@example.com",
       "gender": "male",
       "status": "active"
     }
@@ -25,20 +25,20 @@
         "password": "emilyspass"
       },
       "missingPassword": {
-        "username": "kminchelle"
+        "username": "qa_kminchelle"
       },
       "invalidUsernameType": {
-        "username": 12345,
-        "password": "emilyspass"
+        "username": 7525784525643342,
+        "password": "qa_emilyspass"
       },
       "missingUsername": {
-		"password": "emilyspass"
-	  },
-	  "invalidToken": "invalid-token",
-	  "expiredToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzA2MDY0NjUsImV4cCI6MTc3MDYwNjUyNX0.dB8e-XQbqpXul2BXKMo8Gai_pHcq4rTzIYajfk3MqlI",
-	  "emptyBody": {}
+        "password": "qa_emilyspass"
+      },
+      "invalidToken": "invalid-token",
+      "expiredToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzA2MDY0NjUsImV4cCI6MTc3MDYwNjUyNX0.dB8e-XQbqpXul2BXKMo8Gai_pHcq4rTzIYajfk3MqlI",
+      "emptyBody": {}
     },
-	
+
     "expectedMessages": {
       "missingCredentials": "Username and password required",
       "invalidUsername": "Username is not valid",
@@ -59,7 +59,7 @@
 
     "registerUser": {
       "accountType": "USER",
-      "address": "123 Main Street",
+      "address": "qa Avenue",
       "allowOffersPromotion": true,
       "aobUser": true,
       "cityName": "Sydney",
@@ -72,14 +72,6 @@
       "phoneNumber": "0412345678",
       "stateProvince": "NSW",
       "zipcode": "2000"
-    }
-  },
-
-  "gorest": {
-    "createUser": {
-      "name": "Automation User",
-      "gender": "female",
-      "status": "active"
     }
   },
 
@@ -97,5 +89,29 @@
   "cloudflare": {
     "httpUrl": "http://api.cloudflare.com/client/v4/",
     "httpsUrl": "https://api.cloudflare.com/client/v4/"
+  },
+  "contactList": {
+    "contactCreateUser": {
+      "firstName": "Mark",
+      "lastName": "Rober",
+      "email": "markrober1222@yopmail.com",
+      "password": "Password123"
+    },
+    "validLogin": {
+      "email": "markrober1222@yopmail.com",
+      "password": "Password123"
+    },
+    "createContact": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthdate": "1990-01-01",
+      "email": "john@example.com",
+      "phone": "1234567890",
+      "street1": "123 Main St",
+      "city": "Manila",
+      "stateProvince": "NCR",
+      "postalCode": "1000",
+      "country": "Philippines"
+    }
   }
 }

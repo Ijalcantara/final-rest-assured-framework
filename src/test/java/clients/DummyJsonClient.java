@@ -1,8 +1,11 @@
 package clients;
 
+import constant.EndpointConstant;
 import core.RequestSpecFactory;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
+
+import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
@@ -12,36 +15,47 @@ public class DummyJsonClient extends BaseClient {
         super(RequestSpecFactory.dummyJson());
     }
 
-    @Step("Login with body {body}")
+    /**
+     * Login API
+     */
+    @Step("Login with body: {body}")
     public Response login(Object body) {
         return given()
-                .spec(getRequestSpec())
-                .body(body)
+                .spec(requestSpec)
+                .body(body != null ? body : "{}")
                 .when()
-                .post("/auth/login")
+                .post(EndpointConstant.LOGIN)
                 .then()
                 .extract()
                 .response();
     }
 
-    @Step("Get /user/me with access token {accessToken}")
-    public Response userMe(String accessToken) {
+    /**
+     * Get /user/me with dynamic token
+     */
+    @Step("Get /user/me with token")
+    public Response userMe(String token) {
         return given()
-                .spec(getRequestSpec())
-                .header("Authorization", "Bearer " + accessToken)
-                .header("Accept-Encoding", "identity")
+                .spec(requestSpec)
+                .header("Authorization", "Bearer " + token)
                 .when()
-                .get("/user/me")
+                .get(EndpointConstant.USER_ME)
                 .then()
                 .extract()
                 .response();
     }
 
-    @Step("Search users with query {q}")
-    public Response searchUsers(String q) {
+    /**
+     * Search users with dynamic token
+     */
+    @Step("Search users with query: {query}")
+    public Response searchUsers(String token, String query) {
+        Map<String, String> queryParams = Map.of("q", query);
+
         return given()
-                .spec(getRequestSpec())
-                .queryParam("q", q)
+                .spec(requestSpec)
+                .header("Authorization", "Bearer " + token)
+                .queryParams(queryParams)
                 .when()
                 .get("/users/search")
                 .then()

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="tests.contactList.ContactListRegisterUserTests" time="6.451" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\IvyJemimahPAlcantara\Downloads\rest-assured-framework\target\test-classes;C:\Users\IvyJemimahPAlcantara\Downloads\rest-assured-framework\target\classes;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\platform\junit-platform-suite-api\1.14.3\junit-platform-suite-api-1.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\platform\junit-platform-commons\1.14.3\junit-platform-commons-1.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\jupiter\junit-jupiter\5.14.3\junit-jupiter-5.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.14.3\junit-jupiter-api-5.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.14.3\junit-jupiter-params-5.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.14.3\junit-jupiter-engine-5.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\platform\junit-platform-engine\1.14.3\junit-platform-engine-1.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.0\jackson-databind-2.21.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.0\jackson-core-2.21.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-junit5\2.24.0\allure-junit5-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\platform\junit-platform-launcher\1.14.3\junit-platform-launcher-1.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-rest-assured\2.24.0\allure-rest-assured-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-attachments\2.24.0\allure-attachments-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Manila"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PH"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK17U-jdk_x64_windows_hotspot_17.0.15_6\jdk-17.0.15+6\bin"/>
+    <property name="sun.java.command" value="C:\Users\IvyJemimahPAlcantara\AppData\Local\Temp\surefire13689783281199620776\surefirebooter-20260414104822718_3.jar C:\Users\IvyJemimahPAlcantara\AppData\Local\Temp\surefire13689783281199620776 2026-04-14T10-48-22_538-jvmRun1 surefire-20260414104822718_1tmp surefire_0-20260414104822718_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\IvyJemimahPAlcantara\Downloads\rest-assured-framework\target\test-classes;C:\Users\IvyJemimahPAlcantara\Downloads\rest-assured-framework\target\classes;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\platform\junit-platform-suite-api\1.14.3\junit-platform-suite-api-1.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\platform\junit-platform-commons\1.14.3\junit-platform-commons-1.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\jupiter\junit-jupiter\5.14.3\junit-jupiter-5.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.14.3\junit-jupiter-api-5.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.14.3\junit-jupiter-params-5.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.14.3\junit-jupiter-engine-5.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\platform\junit-platform-engine\1.14.3\junit-platform-engine-1.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.0\jackson-databind-2.21.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.0\jackson-core-2.21.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-junit5\2.24.0\allure-junit5-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\junit\platform\junit-platform-launcher\1.14.3\junit-platform-launcher-1.14.3.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-rest-assured\2.24.0\allure-rest-assured-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\io\qameta\allure\allure-attachments\2.24.0\allure-attachments-2.24.0.jar;C:\Users\IvyJemimahPAlcantara\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\IvyJemimahPAlcantara\Downloads\rest-assured-framework\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\IvyJemimahPAlcantara"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\OpenJDK17U-jdk_x64_windows_hotspot_17.0.15_6\jdk-17.0.15+6"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\IvyJemimahPAlcantara\Downloads\rest-assured-framework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\IvyJemimahPAlcantara\AppData\Local\Temp\surefire13689783281199620776\surefirebooter-20260414104822718_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.15+6"/>
+    <property name="user.name" value="IvyJemimahPAlcantara"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.15+6"/>
+    <property name="localRepository" value="C:\Users\IvyJemimahPAlcantara\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\IVYJEM~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.15"/>
+    <property name="user.dir" value="C:\Users\IvyJemimahPAlcantara\Downloads\rest-assured-framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\OpenJDK17U-jdk_x64_windows_hotspot_17.0.15_6\jdk-17.0.15+6\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;C:\Program Files\Micro Focus\NV\lib\shunra\vcat;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\maven-mvnd-1.0.2-windows-amd64\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\IvyJemimahPAlcantara\AppData\Local\Android\Sdk\build-tools;C:\Users\IvyJemimahPAlcantara\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\OpenJDK17U-jdk_x64_windows_hotspot_17.0.15_6\jdk-17.0.15+6\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\IvyJemimahPAlcantara\AppData\Local\Microsoft\WindowsApps;C:\Users\IvyJemimahPAlcantara\AppData\Local\GitHubDesktop\bin;C:\Users\IvyJemimahPAlcantara\AppData\Roaming\npm;C:\Users\IvyJemimahPAlcantara\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.15+6"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="register3_user_returns_201" classname="ContactListRegisterUserTests" time="1.352">
+    <system-out><![CDATA[10:48:29 INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-4 | TEST CLASS = tests.contactList.ContactListEditContactTests
+10:48:29 INFO  core.BaseApiTest - ========== START TC03 - Edit success ==========
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/login
+10:48:30 INFO  t.c.ContactListRegisterUserTests - Response received: {
+    "user": {
+        "_id": "69ddaafc667a3e00157617ec",
+        "firstName": "Mark",
+        "lastName": "Rober",
+        "email": "13markrober1224+8dd54@yopmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWRkYWFmYzY2N2EzZTAwMTU3NjE3ZWMiLCJpYXQiOjE3NzYxMzQ5MDh9.LkNetl0yC50gxYnSAA6oNUxHtcKUKqbYJkdLeWU9ZoQ"
+}
+10:48:30 INFO  core.BaseApiTest - ========== END TC03 - Registration success ==========
+]]></system-out>
+  </testcase>
+  <testcase name="register4_user_returns_201" classname="ContactListRegisterUserTests" time="1.252">
+    <system-out><![CDATA[10:48:31 INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonAuthTests
+10:48:31 INFO  core.BaseApiTest - ========== START TC03 - Missing password should return 400 ==========
+Request URI:	https://dummyjson.com/auth/login
+10:48:31 INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDlkYWYzOTAwMTUyMWE5ZDUiLCJpYXQiOjE3NzYxMzQ5MTB9.BOy8z93RAvxdHERa5TlEQch8tT7mEh2v1AXdRXRjl88
+10:48:31 INFO  core.BaseApiTest - This is the token being used for login for 3rd user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDlkYWYzOTAwMTUyMWE5ZDUiLCJpYXQiOjE3NzYxMzQ5MTB9.BOy8z93RAvxdHERa5TlEQch8tT7mEh2v1AXdRXRjl88
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts
+10:48:31 INFO  t.c.ContactListRegisterUserTests - Response received: {
+    "user": {
+        "_id": "69ddaafe667a3e00157617ee",
+        "firstName": "Mark",
+        "lastName": "Rober",
+        "email": "14markrober1224+46d92@yopmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWRkYWFmZTY2N2EzZTAwMTU3NjE3ZWUiLCJpYXQiOjE3NzYxMzQ5MTB9.kkqQWI2WSyKYSfec-fa8i2kwOM9u6vx1QY6werYUNQA"
+}
+10:48:31 INFO  core.BaseApiTest - ========== END TC04 - Registration success ==========
+]]></system-out>
+  </testcase>
+  <testcase name="register_user_returns_201" classname="ContactListRegisterUserTests" time="1.296">
+    <system-out><![CDATA[10:48:32 INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonAuthTests
+10:48:32 INFO  core.BaseApiTest - ========== START TC05 - Login should fail when username format is invalid ==========
+Request URI:	https://dummyjson.com/auth/login
+10:48:32 INFO  t.c.ContactListRegisterUserTests - Response received: {
+    "user": {
+        "_id": "69ddaaff667a3e00157617f1",
+        "firstName": "Mark",
+        "lastName": "Rober",
+        "email": "11markrober1224+2c91d@yopmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWRkYWFmZjY2N2EzZTAwMTU3NjE3ZjEiLCJpYXQiOjE3NzYxMzQ5MTF9.ssV_1Yok4QZoSvwO4pATay6B68kBwMYYi62UykApRk0"
+}
+10:48:32 INFO  core.BaseApiTest - ========== END TC01 - Registration success ==========
+]]></system-out>
+  </testcase>
+  <testcase name="register5_user_returns_201" classname="ContactListRegisterUserTests" time="1.244">
+    <system-out><![CDATA[10:48:33 INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-4 | TEST CLASS = tests.contactList.ContactListEditContactTests
+10:48:33 INFO  core.BaseApiTest - ========== START TC01 - Edit success ==========
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/login
+10:48:33 INFO  t.c.ContactListRegisterUserTests - Response received: {
+    "user": {
+        "_id": "69ddab00667a3e00157617f5",
+        "firstName": "Mark",
+        "lastName": "Rober",
+        "email": "15markrober1224+f7968@yopmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWRkYWIwMDY2N2EzZTAwMTU3NjE3ZjUiLCJpYXQiOjE3NzYxMzQ5MTJ9.MLQT1aec9ftWO5O8iHrVMSUmPgP2SlWOGuBb6Wd5bVc"
+}
+10:48:33 INFO  core.BaseApiTest - ========== END TC05 - Registration success ==========
+]]></system-out>
+  </testcase>
+  <testcase name="register2_user_returns_201" classname="ContactListRegisterUserTests" time="1.271">
+    <system-out><![CDATA[10:48:35 INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-1 | TEST CLASS = tests.resiliency.HttpBinStatusTests
+10:48:35 INFO  core.BaseApiTest - ========== START TC04 - Request timeout ==========
+Request URI:	https://httpbin.org/delay/10
+10:48:35 INFO  t.c.ContactListRegisterUserTests - Response received: {
+    "user": {
+        "_id": "69ddab01667a3e00157617f7",
+        "firstName": "Mark",
+        "lastName": "Rober",
+        "email": "12markrober1224+dd9fe@yopmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWRkYWIwMTY2N2EzZTAwMTU3NjE3ZjciLCJpYXQiOjE3NzYxMzQ5MTR9.UeuyHLMeI203_3AyQDxjslCbLjyAUQ1J0r1dp-qdkEc"
+}
+10:48:35 INFO  core.BaseApiTest - ========== END TC02 - Registration success ==========
+]]></system-out>
+  </testcase>
+</testsuite>

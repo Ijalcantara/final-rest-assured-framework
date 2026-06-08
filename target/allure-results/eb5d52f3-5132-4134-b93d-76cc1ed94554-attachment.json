@@ -1,0 +1,68 @@
+{
+  "requestPayload": {
+  "endpoint" : "/users"
+},
+  "statusCode": 200,
+  "responseTimeMs": 725,
+  "responseBody": [ {
+  "id" : 8434880,
+  "name" : "Automation User 0f6f52fa-66dd-46ef-a392-a7f5396c22e7",
+  "email" : "user_0f6f52fa-66dd-46ef-a392-a7f5396c22e7@example.com",
+  "gender" : "male",
+  "status" : "active"
+}, {
+  "id" : 8434877,
+  "name" : "Automation User b5e6f3e4-53d2-4375-bec0-50965764cd1b",
+  "email" : "user_b5e6f3e4-53d2-4375-bec0-50965764cd1b@example.com",
+  "gender" : "male",
+  "status" : "active"
+}, {
+  "id" : 8434872,
+  "name" : "Automation User 0b7f691d-3800-496a-af93-4661aade0462",
+  "email" : "user_0b7f691d-3800-496a-af93-4661aade0462@example.com",
+  "gender" : "male",
+  "status" : "active"
+}, {
+  "id" : 8434870,
+  "name" : "Automation User 9ce64c69-ad1a-499f-b823-cff97f5bd674",
+  "email" : "user_9ce64c69-ad1a-499f-b823-cff97f5bd674@example.com",
+  "gender" : "male",
+  "status" : "active"
+}, {
+  "id" : 8434868,
+  "name" : "Automation User 65c2c63f-efe2-40f3-aa1a-bc5bf922cb48",
+  "email" : "user_65c2c63f-efe2-40f3-aa1a-bc5bf922cb48@example.com",
+  "gender" : "male",
+  "status" : "active"
+}, {
+  "id" : 8434867,
+  "name" : "Automation User 532cb80f-1477-4d84-8783-3a4b9af59604",
+  "email" : "user_532cb80f-1477-4d84-8783-3a4b9af59604@example.com",
+  "gender" : "male",
+  "status" : "active"
+}, {
+  "id" : 8433298,
+  "name" : "Baala Ganaka",
+  "email" : "baala_ganaka@boyle.test",
+  "gender" : "female",
+  "status" : "active"
+}, {
+  "id" : 8433291,
+  "name" : "Mangalya Pothuvaal",
+  "email" : "pothuvaal_mangalya@runolfsdottir.test",
+  "gender" : "female",
+  "status" : "inactive"
+}, {
+  "id" : 8433290,
+  "name" : "Rageswari Chaturvedi",
+  "email" : "chaturvedi_rageswari@ward.test",
+  "gender" : "female",
+  "status" : "active"
+}, {
+  "id" : 8433289,
+  "name" : "Gitanjali Agarwal",
+  "email" : "agarwal_gitanjali@stoltenberg.test",
+  "gender" : "female",
+  "status" : "active"
+} ]
+}

@@ -1,0 +1,68 @@
+{
+  "requestPayload": {
+  "endpoint" : "/users"
+},
+  "statusCode": 200,
+  "responseTimeMs": 552,
+  "responseBody": [ {
+  "id" : 8449805,
+  "name" : "Daksha Trivedi",
+  "email" : "daksha_trivedi@block.example",
+  "gender" : "female",
+  "status" : "active"
+}, {
+  "id" : 8449804,
+  "name" : "Chaaruchandra Kaul",
+  "email" : "kaul_chaaruchandra@greenfelder-green.test",
+  "gender" : "female",
+  "status" : "active"
+}, {
+  "id" : 8449803,
+  "name" : "Gajaadhar Nayar",
+  "email" : "gajaadhar_nayar@moen.example",
+  "gender" : "female",
+  "status" : "inactive"
+}, {
+  "id" : 8449802,
+  "name" : "Marut Bhattacharya",
+  "email" : "marut_bhattacharya@hauck-cole.example",
+  "gender" : "male",
+  "status" : "inactive"
+}, {
+  "id" : 8449801,
+  "name" : "Keerti Chattopadhyay",
+  "email" : "keerti_chattopadhyay@bailey.example",
+  "gender" : "male",
+  "status" : "active"
+}, {
+  "id" : 8449800,
+  "name" : "Ganaka Kaniyar",
+  "email" : "kaniyar_ganaka@keeling.test",
+  "gender" : "female",
+  "status" : "active"
+}, {
+  "id" : 8449799,
+  "name" : "Bhudeva Pandey",
+  "email" : "bhudeva_pandey@schaefer.test",
+  "gender" : "female",
+  "status" : "active"
+}, {
+  "id" : 8449798,
+  "name" : "Elakshi Rana",
+  "email" : "rana_elakshi@rice.example",
+  "gender" : "female",
+  "status" : "inactive"
+}, {
+  "id" : 8449797,
+  "name" : "Tanirika Abbott",
+  "email" : "tanirika_abbott@kozey.test",
+  "gender" : "female",
+  "status" : "inactive"
+}, {
+  "id" : 8449796,
+  "name" : "Akroor Kocchar",
+  "email" : "akroor_kocchar@vandervort.example",
+  "gender" : "male",
+  "status" : "inactive"
+} ]
+}

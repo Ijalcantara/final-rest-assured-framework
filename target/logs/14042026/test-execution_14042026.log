@@ -1,0 +1,970 @@
+10:48:24.297 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-1 | TEST CLASS = tests.resiliency.HttpBinTimeoutTests
+10:48:24.296 [ForkJoinPool-1-worker-4] INFO  config.ConfigManager - Config loaded: env=qa
+10:48:24.298 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== START TC01 - /delay/10 with 5s timeout ==========
+10:48:24.590 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-4 | TEST CLASS = tests.contactList.ContactListEditContactTests
+10:48:24.590 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-2 | TEST CLASS = tests.contactList.ContactListCreateContactTests
+10:48:24.590 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== START TC05 - Edit success ==========
+10:48:24.592 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.contactList.ContactListDeleteUserTests
+10:48:24.596 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== START TC01 - Contact creation success ==========
+10:48:24.596 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC01 - Deletion success ==========
+10:48:24.600 [ForkJoinPool-1-worker-4] INFO  manager.TestDataManager - Loading testData.json for environment: dev
+10:48:26.968 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== END TC01 - Contact creation success ==========
+10:48:26.980 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ================================================
+10:48:26.980 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:26.980 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - Total Execution Time: 2877 ms
+10:48:26.980 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ================================================
+10:48:26.990 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-2 | TEST CLASS = tests.contactList.ContactListGetContactTests
+10:48:26.990 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== START TC01 - Login success ==========
+10:48:27.415 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQzNTRhY2I3Yzk2ZjAwMTU2MmRhZjQiLCJpYXQiOjE3NzYxMzQ5MDV9.BQU3Vh7TaMGZ75FJGJEVW3akEugWyOzme3JTXMoSoAA
+10:48:27.415 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJkZjlkYWYzOTAwMTUyMWE5ZDIiLCJpYXQiOjE3NzYxMzQ5MDV9.WQAYIB1aJpdTsBDcm31HxbKg8s7x8batnZOKbiH4utE
+10:48:27.416 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used for login for 5th user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQzNTRhY2I3Yzk2ZjAwMTU2MmRhZjQiLCJpYXQiOjE3NzYxMzQ5MDV9.BQU3Vh7TaMGZ75FJGJEVW3akEugWyOzme3JTXMoSoAA
+10:48:27.717 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - CREATE STATUS: 201
+10:48:27.718 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - CREATE CONTENT-TYPE: application/json; charset=utf-8
+10:48:27.719 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - CREATE BODY: {"_id":"69ddaafa667a3e00157617e7","firstName":"John","lastName":"Doe","birthdate":"1990-01-01","email":"markrober1222@example.com","phone":"1234567890","street1":"123 Main St","city":"Manila","stateProvince":"NCR","postalCode":"1000","country":"Philippines","owner":"69d354acb7c96f001562daf4","__v":0}
+10:48:27.724 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the response: {
+    "_id": "69ddaafa667a3e00157617e6",
+    "firstName": "John",
+    "lastName": "Doe",
+    "birthdate": "1990-01-01",
+    "email": "markrober1222@example.com",
+    "phone": "1234567890",
+    "street1": "123 Main St",
+    "city": "Manila",
+    "stateProvince": "NCR",
+    "postalCode": "1000",
+    "country": "Philippines",
+    "owner": "69d354acb7c96f001562daf4",
+    "__v": 0
+}
+10:48:27.754 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - Extracted CONTACT ID: 69ddaafa667a3e00157617e7
+10:48:28.052 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used for editing for 5th user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQzNTRhY2I3Yzk2ZjAwMTU2MmRhZjQiLCJpYXQiOjE3NzYxMzQ5MDV9.BQU3Vh7TaMGZ75FJGJEVW3akEugWyOzme3JTXMoSoAA
+10:48:28.053 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== END TC05 - Edit success ==========
+10:48:28.066 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-4 | TEST CLASS = tests.contactList.ContactListEditContactTests
+10:48:28.067 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== START TC04 - Edit success ==========
+10:48:28.295 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQzNTRhY2I3Yzk2ZjAwMTU2MmRhZjQiLCJpYXQiOjE3NzYxMzQ5MDd9.sN8LhY_SpzbPRb5jub4rLtAQqLt8BXsXiawUsvwdp4s
+10:48:28.364 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - DELETE STATUS: 200
+10:48:28.365 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - DELETE CONTENT-TYPE: text/html; charset=utf-8
+10:48:28.367 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - DELETE BODY: Contact deleted
+10:48:28.370 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - DELETE SUCCESS RESPONSE: <html>
+  <body>Contact deleted</body>
+</html>
+10:48:28.370 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC01 - Deletion success ==========
+10:48:28.376 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ================================================
+10:48:28.376 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:28.376 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - Total Execution Time: 1392 ms
+10:48:28.376 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ================================================
+10:48:28.392 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.contactList.ContactListLoginTests
+10:48:28.392 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC01 - Login success ==========
+10:48:28.606 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - Response:
+[
+    {
+        "_id": "69d5c5bdd68dbb00155381a3",
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d5c6fed68dbb00155381ad",
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d5c823d68dbb00155381b9",
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d5c89ad68dbb00155381ca",
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d5c955d68dbb00155381d6",
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d5cad2d68dbb00155381e4",
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69dda756667a3e00157617b3",
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69dda8995ca4eb0015c4fffb",
+        "firstName": "John",
+        "lastName": "Doe",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d4be4c9daf39001521adac",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d4bea09daf39001521adb3",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d4bf279daf39001521ae32",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d4bf426962790015d13d4e",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d4bf676962790015d13d53",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d4bf979daf39001521ae3f",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d4c2b29daf39001521ae45",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d59788915e830015f0cb3e",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d59e56d68dbb0015538174",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d5a2df915e830015f0cb49",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d5c701d68dbb00155381b0",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d5c825d68dbb00155381bd",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d5c89c915e830015f0cbab",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d5c957915e830015f0cbb8",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69d5cad4d68dbb00155381e7",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69dda6375ca4eb0015c4ffcd",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69dda6c85ca4eb0015c4ffcf",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69dda6cf5ca4eb0015c4ffe0",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69dda7565ca4eb0015c4ffea",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69dda75d667a3e00157617ba",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69dda899667a3e00157617bf",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69dda8a05ca4eb0015c50003",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69dda9ea5ca4eb0015c50013",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69ddaa635ca4eb0015c50015",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69ddaa6a5ca4eb0015c50024",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    },
+    {
+        "_id": "69ddaafa667a3e00157617e6",
+        "firstName": "Rose",
+        "lastName": "Gold",
+        "birthdate": "1990-01-01",
+        "email": "markrober1222@example.com",
+        "phone": "1234567890",
+        "street1": "123 Main St",
+        "city": "Manila",
+        "stateProvince": "NCR",
+        "postalCode": "1000",
+        "country": "Philippines",
+        "owner": "69d354acb7c96f001562daf4",
+        "__v": 0
+    }
+]
+10:48:28.654 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== END TC01 - Login success ==========
+10:48:28.660 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ================================================
+10:48:28.661 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:28.661 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - Total Execution Time: 278 ms
+10:48:28.661 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ================================================
+10:48:28.691 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-2 | TEST CLASS = tests.contactList.ContactListRegisterUserTests
+10:48:28.691 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== START TC03 - Registration success ==========
+10:48:28.692 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Original payload: {firstName=Mark, lastName=Rober, email=13markrober1224@yopmail.com, password=Password123}
+10:48:28.694 [ForkJoinPool-1-worker-2] INFO  utils.ApiTestUtils - Updated 'email' with unique value: 13markrober1224+8dd54@yopmail.com
+10:48:28.694 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Payload after making email unique: {firstName=Mark, lastName=Rober, email=13markrober1224+8dd54@yopmail.com, password=Password123}
+10:48:28.694 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Sending registration request...
+10:48:29.359 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDY5NjI3OTAwMTVkMTM4ZTEiLCJpYXQiOjE3NzYxMzQ5MDh9.K6W5S2WtMeyLCU1jW2pQ14IXlPNcMKUcPpWyju5fftU
+10:48:29.359 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used for login for 4th user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDY5NjI3OTAwMTVkMTM4ZTEiLCJpYXQiOjE3NzYxMzQ5MDh9.K6W5S2WtMeyLCU1jW2pQ14IXlPNcMKUcPpWyju5fftU
+10:48:29.644 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the response: {
+    "_id": "69ddaafc667a3e00157617ea",
+    "firstName": "John",
+    "lastName": "Doe",
+    "birthdate": "1990-01-01",
+    "email": "markrober1222@example.com",
+    "phone": "1234567890",
+    "street1": "123 Main St",
+    "city": "Manila",
+    "stateProvince": "NCR",
+    "postalCode": "1000",
+    "country": "Philippines",
+    "owner": "69d45be06962790015d138e1",
+    "__v": 0
+}
+10:48:29.829 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQzNTRhY2I3Yzk2ZjAwMTU2MmRhZjQiLCJpYXQiOjE3NzYxMzQ5MDh9.YFzc11IOGwDtKB-Jv4BdtaVcqo2cgDZrb2YFe1Wdw-s
+10:48:29.838 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC01 - Login success ==========
+10:48:29.848 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.contactList.ContactListLoginTests
+10:48:29.849 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC02 - Login success ==========
+10:48:29.939 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used for editing for 4th user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDY5NjI3OTAwMTVkMTM4ZTEiLCJpYXQiOjE3NzYxMzQ5MDh9.K6W5S2WtMeyLCU1jW2pQ14IXlPNcMKUcPpWyju5fftU
+10:48:29.940 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== END TC04 - Edit success ==========
+10:48:29.948 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-4 | TEST CLASS = tests.contactList.ContactListEditContactTests
+10:48:29.948 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== START TC03 - Edit success ==========
+10:48:30.038 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Response received: {
+    "user": {
+        "_id": "69ddaafc667a3e00157617ec",
+        "firstName": "Mark",
+        "lastName": "Rober",
+        "email": "13markrober1224+8dd54@yopmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWRkYWFmYzY2N2EzZTAwMTU3NjE3ZWMiLCJpYXQiOjE3NzYxMzQ5MDh9.LkNetl0yC50gxYnSAA6oNUxHtcKUKqbYJkdLeWU9ZoQ"
+}
+10:48:30.041 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== END TC03 - Registration success ==========
+10:48:30.049 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-2 | TEST CLASS = tests.contactList.ContactListRegisterUserTests
+10:48:30.049 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== START TC04 - Registration success ==========
+10:48:30.049 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Original payload: {firstName=Mark, lastName=Rober, email=14markrober1224@yopmail.com, password=Password123}
+10:48:30.049 [ForkJoinPool-1-worker-2] INFO  utils.ApiTestUtils - Updated 'email' with unique value: 14markrober1224+46d92@yopmail.com
+10:48:30.049 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Payload after making email unique: {firstName=Mark, lastName=Rober, email=14markrober1224+46d92@yopmail.com, password=Password123}
+10:48:30.049 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Sending registration request...
+10:48:31.152 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQzNTRhY2I3Yzk2ZjAwMTU2MmRhZjQiLCJpYXQiOjE3NzYxMzQ5MTB9.RiTgxWXLG65_ZiqIZOopFTWfPmWZTxb-50WhnyhGJvI
+10:48:31.159 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC02 - Login success ==========
+10:48:31.162 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ================================================
+10:48:31.162 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:31.162 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - Total Execution Time: 2478 ms
+10:48:31.162 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ================================================
+10:48:31.172 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonAuthTests
+10:48:31.172 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC03 - Missing password should return 400 ==========
+10:48:31.247 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDlkYWYzOTAwMTUyMWE5ZDUiLCJpYXQiOjE3NzYxMzQ5MTB9.BOy8z93RAvxdHERa5TlEQch8tT7mEh2v1AXdRXRjl88
+10:48:31.247 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used for login for 3rd user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDlkYWYzOTAwMTUyMWE5ZDUiLCJpYXQiOjE3NzYxMzQ5MTB9.BOy8z93RAvxdHERa5TlEQch8tT7mEh2v1AXdRXRjl88
+10:48:31.298 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Response received: {
+    "user": {
+        "_id": "69ddaafe667a3e00157617ee",
+        "firstName": "Mark",
+        "lastName": "Rober",
+        "email": "14markrober1224+46d92@yopmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWRkYWFmZTY2N2EzZTAwMTU3NjE3ZWUiLCJpYXQiOjE3NzYxMzQ5MTB9.kkqQWI2WSyKYSfec-fa8i2kwOM9u6vx1QY6werYUNQA"
+}
+10:48:31.300 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== END TC04 - Registration success ==========
+10:48:31.306 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-2 | TEST CLASS = tests.contactList.ContactListRegisterUserTests
+10:48:31.306 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== START TC01 - Registration success ==========
+10:48:31.306 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Original payload: {firstName=Mark, lastName=Rober, email=11markrober1224@yopmail.com, password=Password123}
+10:48:31.306 [ForkJoinPool-1-worker-2] INFO  utils.ApiTestUtils - Updated 'email' with unique value: 11markrober1224+2c91d@yopmail.com
+10:48:31.306 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Payload after making email unique: {firstName=Mark, lastName=Rober, email=11markrober1224+2c91d@yopmail.com, password=Password123}
+10:48:31.306 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Sending registration request...
+10:48:31.516 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the response: {
+    "_id": "69ddaafe667a3e00157617f0",
+    "firstName": "John",
+    "lastName": "Doe",
+    "birthdate": "1990-01-01",
+    "email": "markrober1222@example.com",
+    "phone": "1234567890",
+    "street1": "123 Main St",
+    "city": "Manila",
+    "stateProvince": "NCR",
+    "postalCode": "1000",
+    "country": "Philippines",
+    "owner": "69d45be09daf39001521a9d5",
+    "__v": 0
+}
+10:48:31.622 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== END TC01 - /delay/10 with 5s timeout ==========
+10:48:31.626 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ================================================
+10:48:31.627 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:31.627 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - Total Execution Time: 457 ms
+10:48:31.627 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ================================================
+10:48:31.633 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-1 | TEST CLASS = tests.resiliency.HttpBinStatusTests
+10:48:31.634 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== START TC01 - Return HTTP 500 ==========
+10:48:31.635 [ForkJoinPool-1-worker-1] INFO  clients.BaseClient - GET /status/500
+10:48:31.649 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC03 - Missing password should return 400 ==========
+10:48:31.655 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonAuthTests
+10:48:31.655 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC04 - Missing username should return 400 ==========
+10:48:31.795 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used for editing for 3rd user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDlkYWYzOTAwMTUyMWE5ZDUiLCJpYXQiOjE3NzYxMzQ5MTB9.BOy8z93RAvxdHERa5TlEQch8tT7mEh2v1AXdRXRjl88
+10:48:31.796 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== END TC03 - Edit success ==========
+10:48:31.802 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-4 | TEST CLASS = tests.contactList.ContactListEditContactTests
+10:48:31.802 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== START TC02 - Edit success ==========
+10:48:31.944 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC04 - Missing username should return 400 ==========
+10:48:31.948 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonAuthTests
+10:48:31.948 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC01 - Login success ==========
+10:48:32.321 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC01 - Login success ==========
+10:48:32.326 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonAuthTests
+10:48:32.326 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC05 - Login should fail when username format is invalid ==========
+10:48:32.597 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Response received: {
+    "user": {
+        "_id": "69ddaaff667a3e00157617f1",
+        "firstName": "Mark",
+        "lastName": "Rober",
+        "email": "11markrober1224+2c91d@yopmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWRkYWFmZjY2N2EzZTAwMTU3NjE3ZjEiLCJpYXQiOjE3NzYxMzQ5MTF9.ssV_1Yok4QZoSvwO4pATay6B68kBwMYYi62UykApRk0"
+}
+10:48:32.600 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== END TC01 - Registration success ==========
+10:48:32.611 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-2 | TEST CLASS = tests.contactList.ContactListRegisterUserTests
+10:48:32.611 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== START TC05 - Registration success ==========
+10:48:32.611 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Original payload: {firstName=Mark, lastName=Rober, email=15markrober1224@yopmail.com, password=Password123}
+10:48:32.611 [ForkJoinPool-1-worker-2] INFO  utils.ApiTestUtils - Updated 'email' with unique value: 15markrober1224+f7968@yopmail.com
+10:48:32.611 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Payload after making email unique: {firstName=Mark, lastName=Rober, email=15markrober1224+f7968@yopmail.com, password=Password123}
+10:48:32.611 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Sending registration request...
+10:48:32.635 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC05 - Login should fail when username format is invalid ==========
+10:48:32.640 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonAuthTests
+10:48:32.640 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC02 - Login using framework baseUrl should work ==========
+10:48:32.965 [ForkJoinPool-1-worker-1] INFO  clients.BaseClient - Response Status: 500
+10:48:32.967 [ForkJoinPool-1-worker-1] INFO  clients.BaseClient - Response Body: {}
+10:48:32.967 [ForkJoinPool-1-worker-1] INFO  clients.BaseClient - ------------------------------------------------
+10:48:32.970 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== END TC01 - Return HTTP 500 ==========
+10:48:32.976 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-1 | TEST CLASS = tests.resiliency.HttpBinStatusTests
+10:48:32.976 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== START TC02 - Return HTTP 429 ==========
+10:48:32.977 [ForkJoinPool-1-worker-1] INFO  clients.BaseClient - GET /status/429
+10:48:32.990 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC02 - Login using framework baseUrl should work ==========
+10:48:32.995 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonAuthTests
+10:48:32.995 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC06 - Empty body should return 400 ==========
+10:48:33.089 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJkZjlkYWYzOTAwMTUyMWE5ZDAiLCJpYXQiOjE3NzYxMzQ5MTF9.y67ySwtodNfFugH6qNIVAp8N8hH1hgCcwyG4SutotIA
+10:48:33.089 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used for login for 2nd user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJkZjlkYWYzOTAwMTUyMWE5ZDAiLCJpYXQiOjE3NzYxMzQ5MTF9.y67ySwtodNfFugH6qNIVAp8N8hH1hgCcwyG4SutotIA
+10:48:33.296 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC06 - Empty body should return 400 ==========
+10:48:33.299 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ================================================
+10:48:33.299 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:33.299 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - Total Execution Time: 1668 ms
+10:48:33.299 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ================================================
+10:48:33.308 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonSearchTests
+10:48:33.308 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC11 - Search users by valid query should return results ==========
+10:48:33.365 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the response: {
+    "_id": "69ddab00667a3e00157617f4",
+    "firstName": "John",
+    "lastName": "Doe",
+    "birthdate": "1990-01-01",
+    "email": "markrober1222@example.com",
+    "phone": "1234567890",
+    "street1": "123 Main St",
+    "city": "Manila",
+    "stateProvince": "NCR",
+    "postalCode": "1000",
+    "country": "Philippines",
+    "owner": "69d45bdf9daf39001521a9d0",
+    "__v": 0
+}
+10:48:33.653 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used for editing for 2nd user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJkZjlkYWYzOTAwMTUyMWE5ZDAiLCJpYXQiOjE3NzYxMzQ5MTF9.y67ySwtodNfFugH6qNIVAp8N8hH1hgCcwyG4SutotIA
+10:48:33.654 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== END TC02 - Edit success ==========
+10:48:33.662 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-4 | TEST CLASS = tests.contactList.ContactListEditContactTests
+10:48:33.662 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== START TC01 - Edit success ==========
+10:48:33.852 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Response received: {
+    "user": {
+        "_id": "69ddab00667a3e00157617f5",
+        "firstName": "Mark",
+        "lastName": "Rober",
+        "email": "15markrober1224+f7968@yopmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWRkYWIwMDY2N2EzZTAwMTU3NjE3ZjUiLCJpYXQiOjE3NzYxMzQ5MTJ9.MLQT1aec9ftWO5O8iHrVMSUmPgP2SlWOGuBb6Wd5bVc"
+}
+10:48:33.854 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== END TC05 - Registration success ==========
+10:48:33.860 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-2 | TEST CLASS = tests.contactList.ContactListRegisterUserTests
+10:48:33.860 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== START TC02 - Registration success ==========
+10:48:33.861 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Original payload: {firstName=Mark, lastName=Rober, email=12markrober1224@yopmail.com, password=Password123}
+10:48:33.861 [ForkJoinPool-1-worker-2] INFO  utils.ApiTestUtils - Updated 'email' with unique value: 12markrober1224+dd9fe@yopmail.com
+10:48:33.861 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Payload after making email unique: {firstName=Mark, lastName=Rober, email=12markrober1224+dd9fe@yopmail.com, password=Password123}
+10:48:33.861 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Sending registration request...
+10:48:33.896 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTIsImV4cCI6MTc3NjEzODUxMn0.LZoXnp9DNVMLstUe9ewgy9Pju_099beQeD9e6m9GmJE
+10:48:33.897 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - Login response: {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTIsImV4cCI6MTc3NjEzODUxMn0.LZoXnp9DNVMLstUe9ewgy9Pju_099beQeD9e6m9GmJE",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTIsImV4cCI6MTc3ODcyNjkxMn0.i6YbbHZSUW-3J12ti56sBeAVKcXIC7f7GKmjWL8y78Q",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+10:48:34.304 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC11 - Search users by valid query should return results ==========
+10:48:34.307 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ================================================
+10:48:34.308 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:34.308 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - Total Execution Time: 1001 ms
+10:48:34.308 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ================================================
+10:48:34.314 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonUserMeTests
+10:48:34.314 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC08 - Get user info with valid token ==========
+10:48:34.957 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQzNTRhY2I3Yzk2ZjAwMTU2MmRhZjQiLCJpYXQiOjE3NzYxMzQ5MTN9.jBaPo9SGk_p3FPuIh2pg5p4s4J4LCSTNIwtTFER-C4w
+10:48:34.957 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used for login for 1st user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQzNTRhY2I3Yzk2ZjAwMTU2MmRhZjQiLCJpYXQiOjE3NzYxMzQ5MTN9.jBaPo9SGk_p3FPuIh2pg5p4s4J4LCSTNIwtTFER-C4w
+10:48:34.993 [ForkJoinPool-1-worker-1] INFO  clients.BaseClient - Response Status: 429
+10:48:34.994 [ForkJoinPool-1-worker-1] INFO  clients.BaseClient - Response Body: {}
+10:48:34.994 [ForkJoinPool-1-worker-1] INFO  clients.BaseClient - ------------------------------------------------
+10:48:34.996 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== END TC02 - Return HTTP 429 ==========
+10:48:35.002 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-1 | TEST CLASS = tests.resiliency.HttpBinStatusTests
+10:48:35.002 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== START TC04 - Request timeout ==========
+10:48:35.127 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListRegisterUserTests - Response received: {
+    "user": {
+        "_id": "69ddab01667a3e00157617f7",
+        "firstName": "Mark",
+        "lastName": "Rober",
+        "email": "12markrober1224+dd9fe@yopmail.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWRkYWIwMTY2N2EzZTAwMTU3NjE3ZjciLCJpYXQiOjE3NzYxMzQ5MTR9.UeuyHLMeI203_3AyQDxjslCbLjyAUQ1J0r1dp-qdkEc"
+}
+10:48:35.130 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== END TC02 - Registration success ==========
+10:48:35.133 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ================================================
+10:48:35.133 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:35.133 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - Total Execution Time: 821 ms
+10:48:35.133 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ================================================
+10:48:35.137 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-2 | TEST CLASS = tests.integration.AdvantageShoppingTests
+10:48:35.137 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== START TC01 - Wrong API Version should return 404 ==========
+10:48:35.230 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the response: {
+    "_id": "69ddab02667a3e00157617f9",
+    "firstName": "John",
+    "lastName": "Doe",
+    "birthdate": "1990-01-01",
+    "email": "markrober1222@example.com",
+    "phone": "1234567890",
+    "street1": "123 Main St",
+    "city": "Manila",
+    "stateProvince": "NCR",
+    "postalCode": "1000",
+    "country": "Philippines",
+    "owner": "69d354acb7c96f001562daf4",
+    "__v": 0
+}
+10:48:35.509 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the token being used for editing for 1st user: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQzNTRhY2I3Yzk2ZjAwMTU2MmRhZjQiLCJpYXQiOjE3NzYxMzQ5MTN9.jBaPo9SGk_p3FPuIh2pg5p4s4J4LCSTNIwtTFER-C4w
+10:48:35.509 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - This is the edit: {
+    "_id": "69ddab02667a3e00157617f9",
+    "firstName": "Rose",
+    "lastName": "Gold",
+    "birthdate": "1990-01-01",
+    "email": "markrober1222@example.com",
+    "phone": "1234567890",
+    "street1": "123 Main St",
+    "city": "Manila",
+    "stateProvince": "NCR",
+    "postalCode": "1000",
+    "country": "Philippines",
+    "owner": "69d354acb7c96f001562daf4",
+    "__v": 0
+}
+10:48:35.509 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== END TC01 - Edit success ==========
+10:48:35.512 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ================================================
+10:48:35.512 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:35.512 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - Total Execution Time: 376 ms
+10:48:35.512 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ================================================
+10:48:35.519 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-4 | TEST CLASS = tests.integration.GoRestUserCrudTests
+10:48:35.520 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== START TC01 - Create a new user and verify via GET ==========
+10:48:35.566 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTQsImV4cCI6MTc3NjEzODUxNH0.Q4nxM3n-ov0AnRVOFy9iAGBsiDLDuCJCEpdZP28SukI
+10:48:35.567 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - This is the response: {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTQsImV4cCI6MTc3NjEzODUxNH0.Q4nxM3n-ov0AnRVOFy9iAGBsiDLDuCJCEpdZP28SukI",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTQsImV4cCI6MTc3ODcyNjkxNH0.avfReE4fmK9IKKpVS56c1SzFClLZVt2GA-18x81Kpfs",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+10:48:35.929 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC08 - Get user info with valid token ==========
+10:48:35.933 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonUserMeTests
+10:48:35.933 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC12 - Multiple calls return same user info ==========
+10:48:35.952 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== END TC01 - Wrong API Version should return 404 ==========
+10:48:35.956 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-2 | TEST CLASS = tests.integration.AdvantageShoppingTests
+10:48:35.956 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== START TC02 - Register new user should return success (mock) ==========
+10:48:35.975 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== END TC02 - Register new user should return success (mock) ==========
+10:48:35.978 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ================================================
+10:48:35.978 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:35.978 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - Total Execution Time: 462 ms
+10:48:35.978 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ================================================
+10:48:35.983 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-2 | TEST CLASS = tests.resiliency.CloudflareProtocolTests
+10:48:35.984 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== START TC17 - HTTP request should fail instead of HTTPS ==========
+10:48:36.300 [ForkJoinPool-1-worker-2] INFO  t.resiliency.CloudflareProtocolTests - TC17 validation PASSED with status code: 400
+10:48:36.301 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== END TC17 - HTTP request should fail instead of HTTPS ==========
+10:48:36.303 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ================================================
+10:48:36.304 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:36.304 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - Total Execution Time: 322 ms
+10:48:36.304 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ================================================
+10:48:36.308 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-2 | TEST CLASS = tests.resiliency.HttpBinRetryTests
+10:48:36.309 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== START TC01 - Retry /get until status 200 ==========
+10:48:36.312 [ForkJoinPool-1-worker-2] INFO  clients.BaseClient - GET /get
+10:48:36.319 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTUsImV4cCI6MTc3NjEzODUxNX0.JwjcOZTa_TGyeCnAKQ5Z2HsgvybR1F6pX1K5TXxl5Ls
+10:48:36.319 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - This is the response: {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTUsImV4cCI6MTc3NjEzODUxNX0.JwjcOZTa_TGyeCnAKQ5Z2HsgvybR1F6pX1K5TXxl5Ls",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTUsImV4cCI6MTc3ODcyNjkxNX0.sAonGEN0PlPnweSDRnkaYHaOEQLRrc2myvIp8hEldyU",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+10:48:36.917 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== END TC01 - Create a new user and verify via GET ==========
+10:48:36.921 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ================================================
+10:48:36.921 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:36.921 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - Total Execution Time: 615 ms
+10:48:36.921 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ================================================
+10:48:36.925 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-4 | TEST CLASS = tests.resiliency.HttpBinStatusTests
+10:48:36.925 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== START TC03 - Retry until 200 OK ==========
+10:48:36.927 [ForkJoinPool-1-worker-4] INFO  clients.BaseClient - GET /get
+10:48:37.645 [ForkJoinPool-1-worker-2] INFO  clients.BaseClient - Response Status: 200
+10:48:37.646 [ForkJoinPool-1-worker-2] INFO  clients.BaseClient - Response Body: {
+    "args": {
+        
+    },
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip,deflate",
+        "Host": "httpbin.org",
+        "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.15)",
+        "X-Amzn-Trace-Id": "Root=1-69ddab04-6e0471e92789f95c55af9f09"
+    },
+    "origin": "120.29.68.234",
+    "url": "https://httpbin.org/get"
+}
+10:48:37.647 [ForkJoinPool-1-worker-2] INFO  clients.BaseClient - ------------------------------------------------
+10:48:37.651 [ForkJoinPool-1-worker-2] INFO  tests.resiliency.HttpBinRetryTests - Retry completed with status code: 200
+10:48:37.652 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== END TC01 - Retry /get until status 200 ==========
+10:48:37.656 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ================================================
+10:48:37.656 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:37.656 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - Total Execution Time: 1350 ms
+10:48:37.656 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ================================================
+10:48:38.295 [ForkJoinPool-1-worker-4] INFO  clients.BaseClient - Response Status: 200
+10:48:38.296 [ForkJoinPool-1-worker-4] INFO  clients.BaseClient - Response Body: {
+    "args": {
+        
+    },
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip,deflate",
+        "Host": "httpbin.org",
+        "User-Agent": "Apache-HttpClient/4.5.13 (Java/17.0.15)",
+        "X-Amzn-Trace-Id": "Root=1-69ddab05-1b07c80e5f86514a699a4aac"
+    },
+    "origin": "120.29.68.234",
+    "url": "https://httpbin.org/get"
+}
+10:48:38.296 [ForkJoinPool-1-worker-4] INFO  clients.BaseClient - ------------------------------------------------
+10:48:38.299 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== END TC03 - Retry until 200 OK ==========
+10:48:39.442 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC12 - Multiple calls return same user info ==========
+10:48:39.449 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonUserMeTests
+10:48:39.450 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC10 - Get user info with invalid token ==========
+10:48:39.803 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC10 - Get user info with invalid token ==========
+10:48:39.809 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonUserMeTests
+10:48:39.809 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC13 - Get user info without Accept-Encoding header ==========
+10:48:40.212 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - This is the token being used: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTksImV4cCI6MTc3NjEzODUxOX0.S7trhsWjRlLgWLSNjhw9Zp2If6iwmno-D7n6YrbxjJk
+10:48:40.212 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - This is the response: {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTksImV4cCI6MTc3NjEzODUxOX0.S7trhsWjRlLgWLSNjhw9Zp2If6iwmno-D7n6YrbxjJk",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTksImV4cCI6MTc3ODcyNjkxOX0.lsKfv4t7XXc_oztNu3J3CggaVD1-3wGN4Y4sGU06Su0",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+10:48:40.602 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC13 - Get user info without Accept-Encoding header ==========
+10:48:40.608 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.dummyjson.auth.DummyJsonUserMeTests
+10:48:40.608 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC09 - Get user info with expired token ==========
+10:48:40.944 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - This is the response: {
+    "message": "Token Expired!"
+}
+10:48:40.944 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC09 - Get user info with expired token ==========
+10:48:40.948 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ================================================
+10:48:40.948 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:40.948 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - Total Execution Time: 4642 ms
+10:48:40.948 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ================================================
+10:48:40.990 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== END TC04 - Request timeout ==========
+10:48:40.993 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ================================================
+10:48:40.994 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+10:48:40.994 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - Total Execution Time: 4687 ms
+10:48:40.994 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ================================================

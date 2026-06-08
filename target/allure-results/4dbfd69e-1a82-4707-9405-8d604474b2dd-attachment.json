@@ -1,0 +1,14 @@
+{
+  "requestPayload": {
+  "userId" : 8434882
+},
+  "statusCode": 200,
+  "responseTimeMs": 298,
+  "responseBody": {
+  "id" : 8434882,
+  "name" : "Automation User 852328ec-d2d1-4a4d-9735-35ee739d4c39",
+  "email" : "user_852328ec-d2d1-4a4d-9735-35ee739d4c39@example.com",
+  "gender" : "male",
+  "status" : "active"
+}
+}

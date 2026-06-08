@@ -1,0 +1,17 @@
+{
+  "requestPayload": {
+  "name" : "Automation User 852328ec-d2d1-4a4d-9735-35ee739d4c39",
+  "email" : "user_852328ec-d2d1-4a4d-9735-35ee739d4c39@example.com",
+  "gender" : "male",
+  "status" : "active"
+},
+  "statusCode": 201,
+  "responseTimeMs": 323,
+  "responseBody": {
+  "id" : 8434882,
+  "name" : "Automation User 852328ec-d2d1-4a4d-9735-35ee739d4c39",
+  "email" : "user_852328ec-d2d1-4a4d-9735-35ee739d4c39@example.com",
+  "gender" : "male",
+  "status" : "active"
+}
+}

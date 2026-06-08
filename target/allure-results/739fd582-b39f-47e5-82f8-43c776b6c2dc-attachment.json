@@ -1,0 +1,8 @@
+{
+  "requestPayload": { },
+  "statusCode": 400,
+  "responseTimeMs": 271,
+  "responseBody": {
+  "message" : "Username and password required"
+}
+}

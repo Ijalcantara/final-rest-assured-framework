@@ -1,0 +1,31 @@
+{
+  "requestPayload": {
+  "firstName" : "John",
+  "lastName" : "Doe",
+  "birthdate" : "1990-01-01",
+  "email" : "markrober1222@example.com",
+  "phone" : "1234567890",
+  "street1" : "123 Main St",
+  "city" : "Manila",
+  "stateProvince" : "NCR",
+  "postalCode" : "1000",
+  "country" : "Philippines"
+},
+  "statusCode": 201,
+  "responseTimeMs": 263,
+  "responseBody": {
+  "_id" : "69efeef6c2863a00159c1db1",
+  "firstName" : "John",
+  "lastName" : "Doe",
+  "birthdate" : "1990-01-01",
+  "email" : "markrober1222@example.com",
+  "phone" : "1234567890",
+  "street1" : "123 Main St",
+  "city" : "Manila",
+  "stateProvince" : "NCR",
+  "postalCode" : "1000",
+  "country" : "Philippines",
+  "owner" : "69d354acb7c96f001562daf4",
+  "__v" : 0
+}
+}

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: tests.contactList.ContactListCreateContactTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.097 s <<< FAILURE! -- in tests.contactList.ContactListCreateContactTests
+tests.contactList.ContactListCreateContactTests.create_contact_returns_201 -- Time elapsed: 2.381 s <<< ERROR!
+java.lang.IllegalStateException: 
+Cannot invoke the path method because no content-type was present in the response and no default parser has been set.
+
+You can specify a default parser using e.g.:
+RestAssured.defaultParser = Parser.JSON;
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl$_path_closure5.doCall(RestAssuredResponseOptionsGroovyImpl.groovy:408)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl$_path_closure5.doCall(RestAssuredResponseOptionsGroovyImpl.groovy)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.findContentType(RestAssuredResponseOptionsGroovyImpl.groovy:498)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:407)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:235)
+	at utils.AuthTokenUtil.getToken(AuthTokenUtil.java:19)
+	at tests.contactList.ContactListCreateContactTests.create_contact_returns_201(ContactListCreateContactTests.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+

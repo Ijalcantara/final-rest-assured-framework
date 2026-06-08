@@ -1,0 +1,20 @@
+{
+  "requestPayload": {
+  "firstName" : "Mark",
+  "lastName" : "Rober",
+  "email" : "13markrober1224+57f79@yopmail.com",
+  "password" : "Password123"
+},
+  "statusCode": 201,
+  "responseTimeMs": 1321,
+  "responseBody": {
+  "user" : {
+    "_id" : "69eebec07248320015a8058b",
+    "firstName" : "Mark",
+    "lastName" : "Rober",
+    "email" : "13markrober1224+57f79@yopmail.com",
+    "__v" : 1
+  },
+  "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWVlYmVjMDcyNDgzMjAwMTVhODA1OGIiLCJpYXQiOjE3NzcyNTQwODB9.xZBiVAAIWQ1YlN5Ow2FqapxjwYiJs5rcobk0UjRBNU8"
+}
+}

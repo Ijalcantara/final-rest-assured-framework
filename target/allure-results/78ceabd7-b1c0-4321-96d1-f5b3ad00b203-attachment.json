@@ -1,0 +1,25 @@
+{
+  "requestPayload": {
+  "accountType" : "USER",
+  "address" : "123 Main Street",
+  "allowOffersPromotion" : true,
+  "aobUser" : true,
+  "cityName" : "Sydney",
+  "country" : "AUSTRALIA_AU",
+  "email" : "automation1777254072577@example.com",
+  "firstName" : "Aceeee",
+  "lastName" : "Patrick",
+  "loginName" : "auto1777254072577",
+  "password" : "Password123!",
+  "phoneNumber" : "0412345678",
+  "stateProvince" : "NSW",
+  "zipcode" : "2000"
+},
+  "statusCode": 200,
+  "responseTimeMs": -1,
+  "responseBody": {
+  "userId" : 12345,
+  "reason" : "User created successfully",
+  "success" : true
+}
+}

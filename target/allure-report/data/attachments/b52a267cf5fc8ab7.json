@@ -1,0 +1,11 @@
+{
+  "requestPayload": {
+  "username" : 12345,
+  "password" : "emilyspass"
+},
+  "statusCode": 400,
+  "responseTimeMs": 295,
+  "responseBody": {
+  "message" : "Username is not valid"
+}
+}

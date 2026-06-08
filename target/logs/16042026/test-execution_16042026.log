@@ -1,0 +1,76 @@
+16:01:55.176 [ForkJoinPool-1-worker-3] INFO  config.ConfigManager - Config loaded: env=qa
+16:01:55.492 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-1 | TEST CLASS = tests.contactList.ContactListEditContactTests
+16:01:55.492 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-2 | TEST CLASS = tests.contactList.ContactListEditContactTests
+16:01:55.492 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.contactList.ContactListEditContactTests
+16:01:55.492 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== START TC05 - Edit success ==========
+16:01:55.492 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-4 | TEST CLASS = tests.contactList.ContactListEditContactTests
+16:01:55.492 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== START TC01 - Edit success ==========
+16:01:55.492 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC03 - Edit success ==========
+16:01:55.492 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== START TC02 - Edit success ==========
+16:01:55.714 [ForkJoinPool-1-worker-4] INFO  manager.TestDataManager - Loading testData.json for environment: dev
+16:01:58.868 [ForkJoinPool-1-worker-2] INFO  utils.AuthTokenUtil - THREAD=ForkJoinPool-1-worker-2 | TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQzNTRhY2I3Yzk2ZjAwMTU2MmRhZjQiLCJpYXQiOjE3NzYzMjY1MTd9.3FzaunmdDKWy_k9i3hUE99mlnMtVvBA-kWMfIswY1R8
+16:01:58.867 [ForkJoinPool-1-worker-1] INFO  utils.AuthTokenUtil - THREAD=ForkJoinPool-1-worker-1 | TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJkZjlkYWYzOTAwMTUyMWE5ZDIiLCJpYXQiOjE3NzYzMjY1MTd9.ma8eb1ItFAagj9N5qHzYPo1ydwiki5yDfSkMwkJTjnA
+16:01:58.867 [ForkJoinPool-1-worker-3] INFO  utils.AuthTokenUtil - THREAD=ForkJoinPool-1-worker-3 | TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDlkYWYzOTAwMTUyMWE5ZDUiLCJpYXQiOjE3NzYzMjY1MTd9.NTpfrN3lbjH-Ny36sJxXNrhFvy8k-00NdqKDVFdjcKk
+16:01:58.868 [ForkJoinPool-1-worker-4] INFO  utils.AuthTokenUtil - THREAD=ForkJoinPool-1-worker-4 | TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJkZjlkYWYzOTAwMTUyMWE5ZDAiLCJpYXQiOjE3NzYzMjY1MTd9.Us080mhyXwORb5kWwYdXhNyQiXkFKvUWBjm56b3EtrA
+16:01:58.868 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - RUN_ID : c7401ae8-ea0e-4624-9d06-378cd6a356cf
+16:01:58.868 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListEditContactTests - RUN_ID : f83e65fb-0d56-4682-9821-76a7934d6ddf
+16:01:58.868 [ForkJoinPool-1-worker-1] INFO  t.c.ContactListEditContactTests - RUN_ID : 2177901e-d98d-4768-99f9-0f83dd9e66a3
+16:01:58.868 [ForkJoinPool-1-worker-4] INFO  t.c.ContactListEditContactTests - RUN_ID : acae8ee4-277a-4550-90ca-44645dc758ce
+16:01:58.868 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - TC     : TC03
+16:01:58.869 [ForkJoinPool-1-worker-4] INFO  t.c.ContactListEditContactTests - TC     : TC02
+16:01:58.868 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListEditContactTests - TC     : TC01
+16:01:58.869 [ForkJoinPool-1-worker-1] INFO  t.c.ContactListEditContactTests - TC     : TC05
+16:01:58.869 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - 👤 USER  : 3rd user
+16:01:58.869 [ForkJoinPool-1-worker-1] INFO  t.c.ContactListEditContactTests - 👤 USER  : 5th user
+16:01:58.869 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListEditContactTests - 👤 USER  : 1st user
+16:01:58.869 [ForkJoinPool-1-worker-4] INFO  t.c.ContactListEditContactTests - 👤 USER  : 2nd user
+16:01:58.870 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - 👷 WORKER: ForkJoinPool-1-worker-3
+16:01:58.870 [ForkJoinPool-1-worker-1] INFO  t.c.ContactListEditContactTests - 👷 WORKER: ForkJoinPool-1-worker-1
+16:01:58.870 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListEditContactTests - 👷 WORKER: ForkJoinPool-1-worker-2
+16:01:58.870 [ForkJoinPool-1-worker-4] INFO  t.c.ContactListEditContactTests - 👷 WORKER: ForkJoinPool-1-worker-4
+16:01:58.870 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - 🔑 TOKEN : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDlkYWYzOTAwMTUyMWE5ZDUiLCJpYXQiOjE3NzYzMjY1MTd9.NTpfrN3lbjH-Ny36sJxXNrhFvy8k-00NdqKDVFdjcKk
+16:01:58.870 [ForkJoinPool-1-worker-1] INFO  t.c.ContactListEditContactTests - 🔑 TOKEN : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJkZjlkYWYzOTAwMTUyMWE5ZDIiLCJpYXQiOjE3NzYzMjY1MTd9.ma8eb1ItFAagj9N5qHzYPo1ydwiki5yDfSkMwkJTjnA
+16:01:58.870 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListEditContactTests - 🔑 TOKEN : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQzNTRhY2I3Yzk2ZjAwMTU2MmRhZjQiLCJpYXQiOjE3NzYzMjY1MTd9.3FzaunmdDKWy_k9i3hUE99mlnMtVvBA-kWMfIswY1R8
+16:01:58.870 [ForkJoinPool-1-worker-4] INFO  t.c.ContactListEditContactTests - 🔑 TOKEN : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJkZjlkYWYzOTAwMTUyMWE5ZDAiLCJpYXQiOjE3NzYzMjY1MTd9.Us080mhyXwORb5kWwYdXhNyQiXkFKvUWBjm56b3EtrA
+16:01:58.871 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListEditContactTests - ----------------------------------------
+16:01:58.871 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - ----------------------------------------
+16:01:58.871 [ForkJoinPool-1-worker-1] INFO  t.c.ContactListEditContactTests - ----------------------------------------
+16:01:58.871 [ForkJoinPool-1-worker-4] INFO  t.c.ContactListEditContactTests - ----------------------------------------
+16:01:59.574 [ForkJoinPool-1-worker-4] INFO  t.c.ContactListEditContactTests - 👤 USER  : 2nd user
+16:01:59.575 [ForkJoinPool-1-worker-4] INFO  t.c.ContactListEditContactTests - 👷 WORKER: ForkJoinPool-1-worker-4
+16:01:59.575 [ForkJoinPool-1-worker-4] INFO  t.c.ContactListEditContactTests - 🔑 TOKEN : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJkZjlkYWYzOTAwMTUyMWE5ZDAiLCJpYXQiOjE3NzYzMjY1MTd9.Us080mhyXwORb5kWwYdXhNyQiXkFKvUWBjm56b3EtrA
+16:01:59.575 [ForkJoinPool-1-worker-4] INFO  t.c.ContactListEditContactTests - ----------------------------------------
+16:01:59.578 [ForkJoinPool-1-worker-4] INFO  core.BaseApiTest - ========== END TC02 - Edit success ==========
+16:01:59.578 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListEditContactTests - 👤 USER  : 1st user
+16:01:59.578 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - 👤 USER  : 3rd user
+16:01:59.578 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListEditContactTests - 👷 WORKER: ForkJoinPool-1-worker-2
+16:01:59.578 [ForkJoinPool-1-worker-1] INFO  t.c.ContactListEditContactTests - 👤 USER  : 5th user
+16:01:59.579 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListEditContactTests - 🔑 TOKEN : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQzNTRhY2I3Yzk2ZjAwMTU2MmRhZjQiLCJpYXQiOjE3NzYzMjY1MTd9.3FzaunmdDKWy_k9i3hUE99mlnMtVvBA-kWMfIswY1R8
+16:01:59.579 [ForkJoinPool-1-worker-1] INFO  t.c.ContactListEditContactTests - 👷 WORKER: ForkJoinPool-1-worker-1
+16:01:59.579 [ForkJoinPool-1-worker-2] INFO  t.c.ContactListEditContactTests - ----------------------------------------
+16:01:59.579 [ForkJoinPool-1-worker-1] INFO  t.c.ContactListEditContactTests - 🔑 TOKEN : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJkZjlkYWYzOTAwMTUyMWE5ZDIiLCJpYXQiOjE3NzYzMjY1MTd9.ma8eb1ItFAagj9N5qHzYPo1ydwiki5yDfSkMwkJTjnA
+16:01:59.579 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - 👷 WORKER: ForkJoinPool-1-worker-3
+16:01:59.579 [ForkJoinPool-1-worker-1] INFO  t.c.ContactListEditContactTests - ----------------------------------------
+16:01:59.579 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - 🔑 TOKEN : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDlkYWYzOTAwMTUyMWE5ZDUiLCJpYXQiOjE3NzYzMjY1MTd9.NTpfrN3lbjH-Ny36sJxXNrhFvy8k-00NdqKDVFdjcKk
+16:01:59.579 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - ----------------------------------------
+16:01:59.579 [ForkJoinPool-1-worker-2] INFO  core.BaseApiTest - ========== END TC01 - Edit success ==========
+16:01:59.579 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== END TC05 - Edit success ==========
+16:01:59.580 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC03 - Edit success ==========
+16:01:59.700 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - TEST THREAD = ForkJoinPool-1-worker-3 | TEST CLASS = tests.contactList.ContactListEditContactTests
+16:01:59.700 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== START TC04 - Edit success ==========
+16:02:00.969 [ForkJoinPool-1-worker-3] INFO  utils.AuthTokenUtil - THREAD=ForkJoinPool-1-worker-3 | TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDY5NjI3OTAwMTVkMTM4ZTEiLCJpYXQiOjE3NzYzMjY1MTl9.5ItNAPrYPa8C2NZWo8jaN-MUfv1K5rhCq33LUQj7k8M
+16:02:00.969 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - RUN_ID : a5c24711-df1c-4e24-9eff-8127970d3a95
+16:02:00.969 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - TC     : TC04
+16:02:00.969 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - 👤 USER  : 4th user
+16:02:00.970 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - 👷 WORKER: ForkJoinPool-1-worker-3
+16:02:00.970 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - 🔑 TOKEN : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDY5NjI3OTAwMTVkMTM4ZTEiLCJpYXQiOjE3NzYzMjY1MTl9.5ItNAPrYPa8C2NZWo8jaN-MUfv1K5rhCq33LUQj7k8M
+16:02:00.970 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - ----------------------------------------
+16:02:01.567 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - 👤 USER  : 4th user
+16:02:01.568 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - 👷 WORKER: ForkJoinPool-1-worker-3
+16:02:01.568 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - 🔑 TOKEN : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQ0NWJlMDY5NjI3OTAwMTVkMTM4ZTEiLCJpYXQiOjE3NzYzMjY1MTl9.5ItNAPrYPa8C2NZWo8jaN-MUfv1K5rhCq33LUQj7k8M
+16:02:01.568 [ForkJoinPool-1-worker-3] INFO  t.c.ContactListEditContactTests - ----------------------------------------
+16:02:01.569 [ForkJoinPool-1-worker-3] INFO  core.BaseApiTest - ========== END TC04 - Edit success ==========
+16:02:01.576 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ================================================
+16:02:01.576 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ========== TEST SUITE END ==========
+16:02:01.576 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - Total Execution Time: 6774 ms
+16:02:01.576 [ForkJoinPool-1-worker-1] INFO  core.BaseApiTest - ================================================

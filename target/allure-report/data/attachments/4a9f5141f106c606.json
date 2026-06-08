@@ -1,0 +1,19 @@
+{
+  "requestPayload": {
+  "username" : "emilys",
+  "password" : "emilyspass"
+},
+  "statusCode": 200,
+  "responseTimeMs": 343,
+  "responseBody": {
+  "accessToken" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTEsImV4cCI6MTc3NjEzODUxMX0.FodlvuRR8dHTGqOoAAcZqB61BbSyxmxHFGmNWmd1BDs",
+  "refreshToken" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzYxMzQ5MTEsImV4cCI6MTc3ODcyNjkxMX0.h8glV5bedFcwS8ifU93ZK_U0pfCio0aV2UOHVBizGGg",
+  "id" : 1,
+  "username" : "emilys",
+  "email" : "emily.johnson@x.dummyjson.com",
+  "firstName" : "Emily",
+  "lastName" : "Johnson",
+  "gender" : "female",
+  "image" : "https://dummyjson.com/icon/emilys/128"
+}
+}

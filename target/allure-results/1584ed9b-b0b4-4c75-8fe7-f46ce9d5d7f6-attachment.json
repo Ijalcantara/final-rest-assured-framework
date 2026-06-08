@@ -1,0 +1,17 @@
+{
+  "requestPayload": null,
+  "statusCode": 200,
+  "responseTimeMs": 1239,
+  "responseBody": {
+  "args" : { },
+  "headers" : {
+    "Accept" : "*/*",
+    "Accept-Encoding" : "gzip,deflate",
+    "Host" : "httpbin.org",
+    "User-Agent" : "Apache-HttpClient/4.5.13 (Java/24.0.2)",
+    "X-Amzn-Trace-Id" : "Root=1-69eebec4-5fc464b448d226117af7cbad"
+  },
+  "origin" : "120.29.68.229",
+  "url" : "https://httpbin.org/get"
+}
+}
